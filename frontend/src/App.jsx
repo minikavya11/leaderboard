@@ -13,7 +13,7 @@ import useWindowSize from 'react-use/lib/useWindowSize';
 export default function App() {
   const [users, setUsers] = useState([]);
   const [selectedUser, setSelectedUser] = useState("");
-  const [lastClaimed, setLastClaimed] = useState(null);
+ 
   const [showConfetti, setShowConfetti] = useState(false);
   const { width, height } = useWindowSize();
 
