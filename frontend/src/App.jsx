@@ -13,7 +13,7 @@ import useWindowSize from 'react-use/lib/useWindowSize';
 export default function App() {
   const [users, setUsers] = useState([]);
   const [selectedUser, setSelectedUser] = useState("");
- 
+
   const [showConfetti, setShowConfetti] = useState(false);
   const { width, height } = useWindowSize();
 
@@ -36,7 +36,7 @@ export default function App() {
     try {
       const res = await API.post("/claim", { userId: selectedUser });
       const { points, leaderboard } = res.data;
-      setLastClaimed(points);
+      
       setUsers(leaderboard);
 
       toast.success(`🎉 You claimed ${points} points!`, { duration: 3000 });
