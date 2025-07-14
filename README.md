@@ -17,9 +17,9 @@ A full-stack web application that allows users to claim random points and view a
 
 ## 🚀 Live Demo
 
-- 🔗 **Frontend** (Netlify): [https://6874aa2913bcbda99eeba2d3--leaderboardfrontend.netlify.app/](#)
-- 🔗 **Backend** (Render): [https://leaderboard-backend-ol9f.onrender.com/api/users](#)
-- 📦 **MongoDB**: [mongodb+srv://kavyasreeperka45:Y1NF6Wtd6K3RAyBM@board.8zzmuzi.mongodb.net/?retryWrites=true&w=majority&appName=board](#)
+- 🔗 **Frontend (Netlify)**: [https://6874aa2913bcbda99eeba2d3--leaderboardfrontend.netlify.app](https://6874aa2913bcbda99eeba2d3--leaderboardfrontend.netlify.app)
+- 🔗 **Backend (Render)**: [https://leaderboard-backend-ol9f.onrender.com/api/users](https://leaderboard-backend-ol9f.onrender.com/api/users)
+- 📦 **MongoDB**: Hosted on MongoDB Atlas (secured via environment variables)
 
 ---
 
